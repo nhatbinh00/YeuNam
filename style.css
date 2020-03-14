@@ -1,0 +1,71 @@
+body{
+    margin: 0;
+    padding: 0;
+}
+h1{
+    transform: translateY(50px);
+    font-weight: bold;
+    color: rgb(0, 119, 255);
+}
+._container{
+    background-color: rgb(211, 95, 50);
+    max-width: 500px;
+    padding: 100px 0px;
+}
+ul{
+    max-width: 340px;
+    
+}
+.number , .operations , .phantram , .back{
+    background-color: beige;
+    font-weight: bold;
+    max-width: 50px;
+    padding: 15px 20px;
+    border: 1px solid rgb(0, 0, 0);
+    box-shadow: 5px 5px 10px #000;
+    border-radius: 5px;
+    margin: 10px;
+    cursor: pointer;
+    list-style: none;
+}
+.result{
+    background-color: bisque;
+    max-width: 380px;
+    padding: 15px 75px;
+    border: 1px solid rgb(0, 0, 0);
+    box-shadow: 5px 5px 10px #000;
+    border-radius: 5px;
+    margin: 0px auto;
+    cursor: pointer;
+    list-style: none;
+    transform:  translateY(-140px);
+    text-align: center;
+}
+.operations:hover{
+    background-color: rgb(223, 214, 204);
+}
+.number:hover{
+    background-color: rgb(223, 214, 204);
+}
+.result:hover{
+    background-color: rgb(223, 214, 204);
+}
+.back:hover{
+    background-color: rgb(223, 214, 204);
+}
+.phantram:hover{
+    background-color: rgb(223, 214, 204);
+}
+.ketqua{
+    width: 25%;
+    margin: 0px auto;
+    transform: translateY(100px);
+}
+.animate{
+    animation-name: ex;
+  animation-duration: 1s;
+}
+@keyframes ex {
+    0%   { transform: translateY(-4px);}
+    100% { transform: translateY(0px);}
+  }
